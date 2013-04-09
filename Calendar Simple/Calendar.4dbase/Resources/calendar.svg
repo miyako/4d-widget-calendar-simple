@@ -35,7 +35,7 @@
 	
 	<g id="title">
 		<rect id="title-rect" width="168" height="47" shape-rendering="crispEdges" fill-opacity="0.3" fill="url(#banner-gray)" stroke-width="0.5" stroke="#FFFFFF" />
-		<text id="title-text" fill="#444444" x="84" y="19" text-anchor="middle" font-size="17" font-family="'Hiragino Kaku Gothic ProN W6','HiraKakuProN-W6','Meiryo UI'" />
+		<text id="title-text" fill="#444444" x="84" y="19" text-anchor="middle" font-size="13" font-family="'Hiragino Kaku Gothic ProN W6','HiraKakuProN-W6','Meiryo UI'" />
 		<text id="title-day-name-1" fill="#444444" x="12" y="39" text-anchor="middle" font-size="9" font-family="'Hiragino Kaku Gothic ProN W6','HiraKakuProN-W6','Meiryo UI'" />
 		<text id="title-day-name-2" fill="#444444" x="36" y="39" text-anchor="middle" font-size="9" font-family="'Hiragino Kaku Gothic ProN W6','HiraKakuProN-W6','Meiryo UI'" />
 		<text id="title-day-name-3" fill="#444444" x="60" y="39" text-anchor="middle" font-size="9" font-family="'Hiragino Kaku Gothic ProN W6','HiraKakuProN-W6','Meiryo UI'" />

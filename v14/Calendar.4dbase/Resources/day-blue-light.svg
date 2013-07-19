@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+  xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink">
+
+  <defs>
+    <linearGradient id="day-blue-light"
+      x1="0" x2="0" y1="0" y2="100%">
+      <stop stop-color="#0000D3" offset="0.2"/>	  
+      <stop stop-color="#000063" offset="1"/>
+    </linearGradient>
+  </defs>
+
+  <!-- day -->
+  <rect x="0" y="0" width="24" height="24" shape-rendering="crispEdges"
+    fill-opacity="0.3" fill="url(#day-blue-light)" stroke-width="0.5" stroke="#FFFFFF" />
+
+</svg>

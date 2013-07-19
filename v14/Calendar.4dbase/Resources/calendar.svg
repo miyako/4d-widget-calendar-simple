@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+  xmlns:svg="http://www.w3.org/2000/svg" 
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink">
+
+  <defs>
+
+    <linearGradient id="banner-gray"
+      x1="0" x2="0" y1="0" y2="100%">
+      <stop stop-color="#D3D3D3" offset="0.2"/>	  
+      <stop stop-color="#636363" offset="1"/>	  
+    </linearGradient>
+	
+    <linearGradient id="banner-blue-light"
+      x1="0" x2="0" y1="0" y2="100%">
+      <stop stop-color="#0000D3" offset="0.2"/>	  
+      <stop stop-color="#000063" offset="1"/>
+    </linearGradient>
+		  
+    <linearGradient id="day-gray" x1="0" x2="0" y1="0" y2="100%">
+      <stop stop-color="#D3D3D3" offset="0.2" />	  
+      <stop stop-color="#636363" offset="1"/>
+    </linearGradient>	 
+
+    <linearGradient id="day-blue" x1="0" x2="0" y1="0" y2="100%">
+      <stop stop-color="#0000D3" offset="0.2" />	  
+      <stop stop-color="#000063" offset="1"/>	  
+    </linearGradient>
+	
+    <linearGradient id="day-blue-light" x1="0" x2="0" y1="0" y2="100%">
+      <stop stop-color="#0000D3" offset="0.2" />	  
+      <stop stop-color="#000063" offset="1"/>
+    </linearGradient>
+	
+	<g id="title">
+		<rect id="title-rect" width="168" height="47" shape-rendering="crispEdges" fill-opacity="0.3" fill="url(#banner-gray)" stroke-width="0.5" stroke="#FFFFFF" />
+		<text id="title-text" fill="#444444" x="84" y="19" text-anchor="middle" font-size="13" font-family="'Hiragino Kaku Gothic ProN W6','HiraKakuProN-W6','Meiryo UI'" />
+		<text id="title-day-name-1" fill="#444444" x="12" y="39" text-anchor="middle" font-size="9" font-family="'Hiragino Kaku Gothic ProN W6','HiraKakuProN-W6','Meiryo UI'" />
+		<text id="title-day-name-2" fill="#444444" x="36" y="39" text-anchor="middle" font-size="9" font-family="'Hiragino Kaku Gothic ProN W6','HiraKakuProN-W6','Meiryo UI'" />
+		<text id="title-day-name-3" fill="#444444" x="60" y="39" text-anchor="middle" font-size="9" font-family="'Hiragino Kaku Gothic ProN W6','HiraKakuProN-W6','Meiryo UI'" />
+		<text id="title-day-name-4" fill="#444444" x="84" y="39" text-anchor="middle" font-size="9" font-family="'Hiragino Kaku Gothic ProN W6','HiraKakuProN-W6','Meiryo UI'" />
+		<text id="title-day-name-5" fill="#444444" x="108" y="39" text-anchor="middle" font-size="9" font-family="'Hiragino Kaku Gothic ProN W6','HiraKakuProN-W6','Meiryo UI'" />
+		<text id="title-day-name-6" fill="#444444" x="132" y="39" text-anchor="middle" font-size="9" font-family="'Hiragino Kaku Gothic ProN W6','HiraKakuProN-W6','Meiryo UI'" />
+		<text id="title-day-name-7" fill="#444444" x="156" y="39" text-anchor="middle" font-size="9" font-family="'Hiragino Kaku Gothic ProN W6','HiraKakuProN-W6','Meiryo UI'" />
+	</g>
+	
+  </defs>
+
+	<!-- banner -->
+	<use id="BG" x="0" y="0" xlink:href="#title" /> 
+	
+	<!-- week 1 -->
+
+		<rect id="D1" 
+		width="24" height="24" x="0" y="47" 
+		fill="url(#day-gray)" fill-opacity="0.4"
+		shape-rendering="crispEdges" stroke-width="0.5" stroke="#FFFFFF" />
+		
+		<text id="D1-text" 
+		width="24" height="24" x="12" y="63" 
+		fill="#444444" text-anchor="middle" 
+		font-size="9" font-family="'Lucida Grande','Segoe UI'" />
+		
+		<rect id="D2" 
+		width="24" height="24" x="24" y="47" 
+		fill="url(#day-gray)" fill-opacity="0.4"
+		shape-rendering="crispEdges" stroke-width="0.5" stroke="#FFFFFF" />
+		
+		<text id="D2-text" 
+		width="24" height="24" x="36" y="63" 
+		fill="#444444" text-anchor="middle" 
+		font-size="9" font-family="'Lucida Grande','Segoe UI'" />
+		
+		<rect id="D3" 
+		width="24" height="24" x="48" y="47" 
+		fill="url(#day-gray)" fill-opacity="0.4"
+		shape-rendering="crispEdges" stroke-width="0.5" stroke="#FFFFFF" />
+		
+		<text id="D3-text" 
+		width="24" height="24" x="60" y="63" 
+		fill="#444444" text-anchor="middle" 
+		font-size="9" font-family="'Lucida Grande','Segoe UI'" />
+				
+		<rect id="D4" 
+		width="24" height="24" x="72" y="47" 
+		fill="url(#day-gray)" fill-opacity="0.4"
+		shape-rendering="crispEdges" stroke-width="0.5" stroke="#FFFFFF" />
+		
+		<text id="D4-text" 
+		width="24" height="24" x="84" y="63" 
+		fill="#444444" text-anchor="middle" 
+		font-size="9" font-family="'Lucida Grande','Segoe UI'" />
+
+		<rect id="D5" 
+		width="24" height="24" x="96" y="47" 
+		fill="url(#day-gray)" fill-opacity="0.4"
+		shape-rendering="crispEdges" stroke-width="0.5" stroke="#FFFFFF" />
+		
+		<text id="D5-text" 
+		width="24" height="24" x="108" y="63" 
+		fill="#444444" text-anchor="middle" 
+		font-size="9" font-family="'Lucida Grande','Segoe UI'" />
+
+		<rect id="D6" 
+		width="24" height="24" x="120" y="47" 
+		fill="url(#day-gray)" fill-opacity="0.4"
+		shape-rendering="crispEdges" stroke-width="0.5" stroke="#FFFFFF" />
+		
+		<text id="D6-text" 
+		width="24" height="24" x="132" y="63" 
+		fill="#444444" text-anchor="middle" 
+		font-size="9" font-family="'Lucida Grande','Segoe UI'" />	
+
+		<rect id="D7" 
+		width="24" height="24" x="144" y="47" 
+		fill="url(#day-gray)" fill-opacity="0.4"
+		shape-rendering="crispEdges" stroke-width="0.5" stroke="#FFFFFF" />
+		
+		<text id="D7-text" 
+		width="24" height="24" x="156" y="63" 
+		fill="#444444" text-anchor="middle" 
+		font-size="9" font-family="'Lucida Grande','Segoe UI'" />								
+
+	<!-- week 2 -->
+
+		<rect id="D8" 
+		width="24" height="24" x="0" y="71" 
+		fill="url(#day-gray)" fill-opacity="0.4"
+		shape-rendering="crispEdges" stroke-width="0.5" stroke="#FFFFFF" />
+		
+		<text id="D8-text" 
+		width="24" height="24" x="12" y="87" 
+		fill="#444444" text-anchor="middle" 
+		font-size="9" font-family="'Lucida Grande','Segoe UI'" />
+		
+		<rect id="D9" 
+		width="24" height="24" x="24" y="71" 
+		fill="url(#day-gray)" fill-opacity="0.4"
+		shape-rendering="crispEdges" stroke-width="0.5" stroke="#FFFFFF" />
+		
+		<text id="D9-text" 
+		width="24" height="24" x="36" y="87" 
+		fill="#444444" text-anchor="middle" 
+		font-size="9" font-family="'Lucida Grande','Segoe UI'" />
+		
+		<rect id="D10" 
+		width="24" height="24" x="48" y="71" 
+		fill="url(#day-gray)" fill-opacity="0.4"
+		shape-rendering="crispEdges" stroke-width="0.5" stroke="#FFFFFF" />
+		
+		<text id="D10-text" 
+		width="24" height="24" x="60" y="87" 
+		fill="#444444" text-anchor="middle" 
+		font-size="9" font-family="'Lucida Grande','Segoe UI'" />
+				
+		<rect id="D11" 
+		width="24" height="24" x="72" y="71" 
+		fill="url(#day-gray)" fill-opacity="0.4"
+		shape-rendering="crispEdges" stroke-width="0.5" stroke="#FFFFFF" />
+		
+		<text id="D11-text" 
+		width="24" height="24" x="84" y="87" 
+		fill="#444444" text-anchor="middle" 
+		font-size="9" font-family="'Lucida Grande','Segoe UI'" />
+
+		<rect id="D12" 
+		width="24" height="24" x="96" y="71" 
+		fill="url(#day-gray)" fill-opacity="0.4"
+		shape-rendering="crispEdges" stroke-width="0.5" stroke="#FFFFFF" />
+		
+		<text id="D12-text" 
+		width="24" height="24" x="108" y="87" 
+		fill="#444444" text-anchor="middle" 
+		font-size="9" font-family="'Lucida Grande','Segoe UI'" />
+
+		<rect id="D13" 
+		width="24" height="24" x="120" y="71" 
+		fill="url(#day-gray)" fill-opacity="0.4"
+		shape-rendering="crispEdges" stroke-width="0.5" stroke="#FFFFFF" />
+		
+		<text id="D13-text" 
+		width="24" height="24" x="132" y="87" 
+		fill="#444444" text-anchor="middle" 
+		font-size="9" font-family="'Lucida Grande','Segoe UI'" />	
+
+		<rect id="D14" 
+		width="24" height="24" x="144" y="71" 
+		fill="url(#day-gray)" fill-opacity="0.4"
+		shape-rendering="crispEdges" stroke-width="0.5" stroke="#FFFFFF" />
+		
+		<text id="D14-text" 
+		width="24" height="24" x="156" y="87" 
+		fill="#444444" text-anchor="middle" 
+		font-size="9" font-family="'Lucida Grande','Segoe UI'" />								
+
+	<!-- week 3 -->
+
+		<rect id="D15" 
+		width="24" height="24" x="0" y="95" 
+		fill="url(#day-gray)" fill-opacity="0.4"
+		shape-rendering="crispEdges" stroke-width="0.5" stroke="#FFFFFF" />
+		
+		<text id="D15-text" 
+		width="24" height="24" x="12" y="111" 
+		fill="#444444" text-anchor="middle" 
+		font-size="9" font-family="'Lucida Grande','Segoe UI'" />
+		
+		<rect id="D16" 
+		width="24" height="24" x="24" y="95" 
+		fill="url(#day-gray)" fill-opacity="0.4"
+		shape-rendering="crispEdges" stroke-width="0.5" stroke="#FFFFFF" />
+		
+		<text id="D16-text" 
+		width="24" height="24" x="36" y="111" 
+		fill="#444444" text-anchor="middle" 
+		font-size="9" font-family="'Lucida Grande','Segoe UI'" />
+		
+		<rect id="D17" 
+		width="24" height="24" x="48" y="95" 
+		fill="url(#day-gray)" fill-opacity="0.4"
+		shape-rendering="crispEdges" stroke-width="0.5" stroke="#FFFFFF" />
+		
+		<text id="D17-text" 
+		width="24" height="24" x="60" y="111" 
+		fill="#444444" text-anchor="middle" 
+		font-size="9" font-family="'Lucida Grande','Segoe UI'" />
+				
+		<rect id="D18" 
+		width="24" height="24" x="72" y="95" 
+		fill="url(#day-gray)" fill-opacity="0.4"
+		shape-rendering="crispEdges" stroke-width="0.5" stroke="#FFFFFF" />
+		
+		<text id="D18-text" 
+		width="24" height="24" x="84" y="111" 
+		fill="#444444" text-anchor="middle" 
+		font-size="9" font-family="'Lucida Grande','Segoe UI'" />
+
+		<rect id="D19" 
+		width="24" height="24" x="96" y="95" 
+		fill="url(#day-gray)" fill-opacity="0.4"
+		shape-rendering="crispEdges" stroke-width="0.5" stroke="#FFFFFF" />
+		
+		<text id="D19-text" 
+		width="24" height="24" x="108" y="111" 
+		fill="#444444" text-anchor="middle" 
+		font-size="9" font-family="'Lucida Grande','Segoe UI'" />
+
+		<rect id="D20" 
+		width="24" height="24" x="120" y="95" 
+		fill="url(#day-gray)" fill-opacity="0.4"
+		shape-rendering="crispEdges" stroke-width="0.5" stroke="#FFFFFF" />
+		
+		<text id="D20-text" 
+		width="24" height="24" x="132" y="111" 
+		fill="#444444" text-anchor="middle" 
+		font-size="9" font-family="'Lucida Grande','Segoe UI'" />	
+
+		<rect id="D21" 
+		width="24" height="24" x="144" y="95" 
+		fill="url(#day-gray)" fill-opacity="0.4"
+		shape-rendering="crispEdges" stroke-width="0.5" stroke="#FFFFFF" />
+		
+		<text id="D21-text" 
+		width="24" height="24" x="156" y="111" 
+		fill="#444444" text-anchor="middle" 
+		font-size="9" font-family="'Lucida Grande','Segoe UI'" />								
+
+	<!-- week 4 -->
+
+		<rect id="D22" 
+		width="24" height="24" x="0" y="119" 
+		fill="url(#day-gray)" fill-opacity="0.4"
+		shape-rendering="crispEdges" stroke-width="0.5" stroke="#FFFFFF" />
+		
+		<text id="D22-text" 
+		width="24" height="24" x="12" y="135" 
+		fill="#444444" text-anchor="middle" 
+		font-size="9" font-family="'Lucida Grande','Segoe UI'" />
+		
+		<rect id="D23" 
+		width="24" height="24" x="24" y="119" 
+		fill="url(#day-gray)" fill-opacity="0.4"
+		shape-rendering="crispEdges" stroke-width="0.5" stroke="#FFFFFF" />
+		
+		<text id="D23-text" 
+		width="24" height="24" x="36" y="135" 
+		fill="#444444" text-anchor="middle" 
+		font-size="9" font-family="'Lucida Grande','Segoe UI'" />
+		
+		<rect id="D24" 
+		width="24" height="24" x="48" y="119" 
+		fill="url(#day-gray)" fill-opacity="0.4"
+		shape-rendering="crispEdges" stroke-width="0.5" stroke="#FFFFFF" />
+		
+		<text id="D24-text" 
+		width="24" height="24" x="60" y="135" 
+		fill="#444444" text-anchor="middle" 
+		font-size="9" font-family="'Lucida Grande','Segoe UI'" />
+				
+		<rect id="D25" 
+		width="24" height="24" x="72" y="119" 
+		fill="url(#day-gray)" fill-opacity="0.4"
+		shape-rendering="crispEdges" stroke-width="0.5" stroke="#FFFFFF" />
+		
+		<text id="D25-text" 
+		width="24" height="24" x="84" y="135" 
+		fill="#444444" text-anchor="middle" 
+		font-size="9" font-family="'Lucida Grande','Segoe UI'" />
+
+		<rect id="D26" 
+		width="24" height="24" x="96" y="119" 
+		fill="url(#day-gray)" fill-opacity="0.4"
+		shape-rendering="crispEdges" stroke-width="0.5" stroke="#FFFFFF" />
+		
+		<text id="D26-text" 
+		width="24" height="24" x="108" y="135" 
+		fill="#444444" text-anchor="middle" 
+		font-size="9" font-family="'Lucida Grande','Segoe UI'" />
+
+		<rect id="D27" 
+		width="24" height="24" x="120" y="119" 
+		fill="url(#day-gray)" fill-opacity="0.4"
+		shape-rendering="crispEdges" stroke-width="0.5" stroke="#FFFFFF" />
+		
+		<text id="D27-text" 
+		width="24" height="24" x="132" y="135" 
+		fill="#444444" text-anchor="middle" 
+		font-size="9" font-family="'Lucida Grande','Segoe UI'" />	
+
+		<rect id="D28" 
+		width="24" height="24" x="144" y="119" 
+		fill="url(#day-gray)" fill-opacity="0.4"
+		shape-rendering="crispEdges" stroke-width="0.5" stroke="#FFFFFF" />
+		
+		<text id="D28-text" 
+		width="24" height="24" x="156" y="135" 
+		fill="#444444" text-anchor="middle" 
+		font-size="9" font-family="'Lucida Grande','Segoe UI'" />								
+
+	<!-- week 5 -->
+
+		<rect id="D29" 
+		width="24" height="24" x="0" y="143" 
+		fill="url(#day-gray)" fill-opacity="0.4"
+		shape-rendering="crispEdges" stroke-width="0.5" stroke="#FFFFFF" />
+		
+		<text id="D29-text" 
+		width="24" height="24" x="12" y="159" 
+		fill="#444444" text-anchor="middle" 
+		font-size="9" font-family="'Lucida Grande','Segoe UI'" />
+		
+		<rect id="D30" 
+		width="24" height="24" x="24" y="143" 
+		fill="url(#day-gray)" fill-opacity="0.4"
+		shape-rendering="crispEdges" stroke-width="0.5" stroke="#FFFFFF" />
+		
+		<text id="D30-text" 
+		width="24" height="24" x="36" y="159" 
+		fill="#444444" text-anchor="middle" 
+		font-size="9" font-family="'Lucida Grande','Segoe UI'" />
+		
+		<rect id="D31" 
+		width="24" height="24" x="48" y="143" 
+		fill="url(#day-gray)" fill-opacity="0.4"
+		shape-rendering="crispEdges" stroke-width="0.5" stroke="#FFFFFF" />
+		
+		<text id="D31-text" 
+		width="24" height="24" x="60" y="159" 
+		fill="#444444" text-anchor="middle" 
+		font-size="9" font-family="'Lucida Grande','Segoe UI'" />
+				
+		<rect id="D32" 
+		width="24" height="24" x="72" y="143" 
+		fill="url(#day-gray)" fill-opacity="0.4"
+		shape-rendering="crispEdges" stroke-width="0.5" stroke="#FFFFFF" />
+		
+		<text id="D32-text" 
+		width="24" height="24" x="84" y="159" 
+		fill="#444444" text-anchor="middle" 
+		font-size="9" font-family="'Lucida Grande','Segoe UI'" />
+
+		<rect id="D33" 
+		width="24" height="24" x="96" y="143" 
+		fill="url(#day-gray)" fill-opacity="0.4"
+		shape-rendering="crispEdges" stroke-width="0.5" stroke="#FFFFFF" />
+		
+		<text id="D33-text" 
+		width="24" height="24" x="108" y="159" 
+		fill="#444444" text-anchor="middle" 
+		font-size="9" font-family="'Lucida Grande','Segoe UI'" />
+
+		<rect id="D34" 
+		width="24" height="24" x="120" y="143" 
+		fill="url(#day-gray)" fill-opacity="0.4"
+		shape-rendering="crispEdges" stroke-width="0.5" stroke="#FFFFFF" />
+		
+		<text id="D34-text" 
+		width="24" height="24" x="132" y="159" 
+		fill="#444444" text-anchor="middle" 
+		font-size="9" font-family="'Lucida Grande','Segoe UI'" />	
+
+		<rect id="D35" 
+		width="24" height="24" x="144" y="143" 
+		fill="url(#day-gray)" fill-opacity="0.4"
+		shape-rendering="crispEdges" stroke-width="0.5" stroke="#FFFFFF" />
+		
+		<text id="D35-text" 
+		width="24" height="24" x="156" y="159" 
+		fill="#444444" text-anchor="middle" 
+		font-size="9" font-family="'Lucida Grande','Segoe UI'" />								
+
+	<!-- week 6 -->
+
+		<rect id="D36" 
+		width="24" height="24" x="0" y="167" 
+		fill="url(#day-gray)" fill-opacity="0.4"
+		shape-rendering="crispEdges" stroke-width="0.5" stroke="#FFFFFF" />
+		
+		<text id="D36-text" 
+		width="24" height="24" x="12" y="183" 
+		fill="#444444" text-anchor="middle" 
+		font-size="9" font-family="'Lucida Grande','Segoe UI'" />
+		
+		<rect id="D37" 
+		width="24" height="24" x="24" y="167" 
+		fill="url(#day-gray)" fill-opacity="0.4"
+		shape-rendering="crispEdges" stroke-width="0.5" stroke="#FFFFFF" />
+		
+		<text id="D37-text" 
+		width="24" height="24" x="36" y="183" 
+		fill="#444444" text-anchor="middle" 
+		font-size="9" font-family="'Lucida Grande','Segoe UI'" />
+		
+		<rect id="D38" 
+		width="24" height="24" x="48" y="167" 
+		fill="url(#day-gray)" fill-opacity="0.4"
+		shape-rendering="crispEdges" stroke-width="0.5" stroke="#FFFFFF" />
+		
+		<text id="D38-text" 
+		width="24" height="24" x="60" y="183" 
+		fill="#444444" text-anchor="middle" 
+		font-size="9" font-family="'Lucida Grande','Segoe UI'" />
+				
+		<rect id="D39" 
+		width="24" height="24" x="72" y="167" 
+		fill="url(#day-gray)" fill-opacity="0.4"
+		shape-rendering="crispEdges" stroke-width="0.5" stroke="#FFFFFF" />
+		
+		<text id="D39-text" 
+		width="24" height="24" x="84" y="183" 
+		fill="#444444" text-anchor="middle" 
+		font-size="9" font-family="'Lucida Grande','Segoe UI'" />
+
+		<rect id="D40" 
+		width="24" height="24" x="96" y="167" 
+		fill="url(#day-gray)" fill-opacity="0.4"
+		shape-rendering="crispEdges" stroke-width="0.5" stroke="#FFFFFF" />
+		
+		<text id="D40-text" 
+		width="24" height="24" x="108" y="183" 
+		fill="#444444" text-anchor="middle" 
+		font-size="9" font-family="'Lucida Grande','Segoe UI'" />
+
+		<rect id="D41" 
+		width="24" height="24" x="120" y="167" 
+		fill="url(#day-gray)" fill-opacity="0.4"
+		shape-rendering="crispEdges" stroke-width="0.5" stroke="#FFFFFF" />
+		
+		<text id="D41-text" 
+		width="24" height="24" x="132" y="183" 
+		fill="#444444" text-anchor="middle" 
+		font-size="9" font-family="'Lucida Grande','Segoe UI'" />	
+
+		<rect id="D42" 
+		width="24" height="24" x="144" y="167" 
+		fill="url(#day-gray)" fill-opacity="0.4"
+		shape-rendering="crispEdges" stroke-width="0.5" stroke="#FFFFFF" />
+		
+		<text id="D42-text" 
+		width="24" height="24" x="156" y="183" 
+		fill="#444444" text-anchor="middle" 
+		font-size="9" font-family="'Lucida Grande','Segoe UI'" />								
+
+		<path id="previous-month" fill="#444444" shape-rendering="crispEdges" stroke="none" d="M 5 12 L 15 4 L 15 21" />
+		<path id="next-month" fill="#444444" shape-rendering="crispEdges" stroke="none" d="M 152 4 L 152 21 L 162 12" />
+		
+</svg>
